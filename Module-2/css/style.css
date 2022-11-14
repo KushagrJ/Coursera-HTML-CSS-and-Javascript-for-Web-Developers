@@ -1,0 +1,116 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+h1
+{
+    margin-bottom: 14px;
+    text-align: center;
+    color: #e600ff;
+    font-size: 49px;
+}
+
+.aec-cse-kushagr-jaiswal-box
+{
+    width: 100%;
+    overflow: none;
+}
+
+.aec-cse-kushagr-jaiswal-content-name
+{
+    overflow: none;
+    text-align: center;
+    border: 3px solid black;
+    width: 99px;
+    height: 39px;
+    padding: 4px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 0px;
+    font-weight: bold;
+    position: relative;
+}
+
+.aec-cse-kushagr-jaiswal-content
+{
+    border: 4px solid black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: black;
+    font-size: 24px;
+    padding: 2%;
+    padding-top: 54px;
+    background-color: rgba(132, 217, 223, 0.3);
+}
+
+.aec-cse-kushagr-jaiswal-name1
+{
+    background-color: #88ff82;
+}
+
+.aec-cse-kushagr-jaiswal-name2
+{
+    background-color: #ffb0f7;
+}
+
+.aec-cse-kushagr-jaiswal-name3
+{
+    background-color: #FFFF00;
+}
+
+@media (min-width: 992px)
+{
+    .aec-cse-kushagr-jaiswal-col-lg-4
+    {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .aec-cse-kushagr-jaiswal-col-md-6, .aec-cse-kushagr-jaiswal-col-md-12
+    {
+        float: left;
+    }
+
+    .aec-cse-kushagr-jaiswal-col-md-6
+    {
+        width: 50%;
+    }
+
+    .aec-cse-kushagr-jaiswal-col-md-12
+    {
+        margin-left: -10px;
+        width: 100%;
+    }
+
+    .aec-cse-kushagr-jaiswal-name3
+    {
+        margin-right: 65px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px)
+{
+    .aec-cse-kushagr-jaiswal-col-sm-12
+    {
+        float: left;
+        width: 100%;
+    }
+
+    .aec-cse-kushagr-jaiswal-content-name
+    {
+        margin-right: 30px;
+    }
+}
